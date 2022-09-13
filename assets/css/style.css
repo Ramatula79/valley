@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: #3C0545;
+    padding-bottom: 168px;
+    padding-top: 24px;
+}
+
+.container {
+    margin-left: 64px;
+    margin-right: 64px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+.call {
+    font-size: 14px;
+    margin-left: 510px;
+}
+
+.call-text {
+    color: #ffffff;
+    opacity: 0.54; 
+}
+
+.phone {
+    margin-left: 5px;
+}
+
+.menu {
+    justify-content: center;
+    display: flex;
+    width: 28px;
+    flex-wrap: wrap;
+    margin-left: auto;
+}
+.menu span {
+    background: #fff;
+    display: block;
+    width: 16px;
+    height: 2px;
+    margin-bottom: 5px;
+}
+
+.menu span:nth-child(2) {
+    width: 28px;
+}
+
+.menu span:nth-child(3) {
+    width: 16px;
+}
+
+.header-content {
+    margin-top: 84px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer {
+    
+}
+
+.merits {
+    font-family: 'Lobster', cursive;
+    font-size: 16px;
+    margin-bottom: 54px;
+}
+
+.merits span {
+    margin-right: 24px;
+    
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 44px;
+    margin-bottom: 24px;
+}
+.help-text {
+    color: #F7C302;
+    font-size: 16px;
+    width: 431px;
+    margin-bottom: 40px;
+}
+
+.introtext {
+    width: 423px;
+    margin-bottom: 40px;
+}
+.order {
+    color: #E0AB0A;
+    border: 1px solid #E0AB0A;
+    border-radius: 80px;
+    padding: 11px 26px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.order:hover {
+    background: #E0AB0A;
+    border: 1px solid #E0AB0A;
+    color: #fff;
+}
+
+.recepts {
+    width: 364px;
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    margin-top: 100px;
+}
+.recepts a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.recepts-pic {
+    width: 95px;
+    height: 91px;
+    border-radius: 20px;
+    display: block;
+    
+}
+
+.recepts-info {
+    margin-left: 20px;
+    
+}
+
+.recepts-info h4 {
+    font-size: 16px;
+    width: 509px;
+    
+}
+
+.recepts-info p {
+    color: #ffffff;
+    opacity: 0.48;
+    
+}
+
+.slider-pic {
+    display: block;
+    margin-top: 90px;
+}
+
+.slider-nav {
+    display: flex;
+    align-items: center;
+    width: 210px;
+    margin: 0 auto;
+    margin-top: 160px;
+}
+
+.slider-nav .arrow:first-child {
+    margin-right: 20px;
+}
+
+.slider-nav .arrow:last-child {
+    margin-left: 20px;
+}
+.triggers {
+    display: flex;
+    justify-content: space-between;
+    width: 109px;
+    align-items: center;
+}
+
+.triggers span {
+    width: 31px;
+    height: 31px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    line-height: 31px;
+    text-align: center;
+    display: block;
+    opacity: 0.4;
+}
+
+.triggers span.active {
+    opacity: 1;
+}
